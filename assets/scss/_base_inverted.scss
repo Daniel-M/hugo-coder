@@ -22,9 +22,10 @@ body.inverted {
   }
 
   pre {
+    color: $alt-bg-color-inverted;
+    background-color: inherit;
     code {
       background-color: inherit;
-      //color: inherit;
       color: $alt-bg-color-inverted;
     }
   }
